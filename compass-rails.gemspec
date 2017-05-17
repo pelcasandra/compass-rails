@@ -16,7 +16,7 @@ Gem::Specification.new do |gem|
   gem.version       = CompassRails::VERSION
   gem.license       = "MIT"
 
-  gem.add_dependency 'compass',    '~> 1.0.0'
+  gem.add_dependency 'compass',    '~> 1.0.3'
   gem.add_dependency 'sprockets',  '< 4.0'
-  gem.add_dependency 'sass-rails'
+  gem.add_dependency 'sass-rails', '< 6.0.0.beta1'
 end
